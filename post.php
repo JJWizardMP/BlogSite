@@ -114,7 +114,6 @@
                             <ul>
                                 <li>Joan Méndez Pool | 160300102</li>
                                 <li>Uziel Torres Valera | 170300150</li>
-                                <li>Karen Borraz Torres | 190300624</li>
                             </ul>
                         </p>
                     </div>
