@@ -1,0 +1,188 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 90px; /* Required padding for .navbar-fixed-top. 
+    Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/*Button search */
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  .btn-default:hover,
+  .btn-default:focus,
+  .btn-default.focus,
+  .btn-default:active,
+  .btn-default.active,
+  .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  .btn-default:active,
+  .btn-default.active,
+  .open > .dropdown-toggle.btn-default {
+    background-image: none;
+  }
+
+/* images */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Icons */
+.i-comment{
+    font-size: 3.5vw;
+}
+.isize{
+    font-size: 1.6vw;
+}
+
+/*NavBar*/
+
+.navbar .navbar-brand{
+    color:#adadad;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: white;
+    background-color: transparent;
+}
+
+/* Pager */
+.pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none;
+  }
+  .pager li {
+    display: inline;
+  }
+  .pager li > a,
+  .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+  }
+  .pager li > a:hover,
+  .pager li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+  }
+  .pager .next > a,
+  .pager .next > span {
+    float: right;
+  }
+  .pager .previous > a,
+  .pager .previous > span {
+    float: left;
+  }
+  .pager .disabled > a,
+  .pager .disabled > a:hover,
+  .pager .disabled > a:focus,
+  .pager .disabled > span {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+  }
+
+/* Media Comments*/
+.media {
+    margin-top: 15px;
+  }
+  .media:first-child {
+    margin-top: 0;
+  }
+  .media,
+  .media-body {
+    overflow: hidden;
+    zoom: 1;
+  }
+  .media-body {
+    width: 10000px;
+  }
+  .media-object {
+    display: block;
+  }
+  .media-right,
+  .media > .pull-right {
+    padding-left: 10px;
+  }
+  .media-left,
+  .media > .pull-left {
+    padding-right: 10px;
+  }
+  .media-left,
+  .media-right,
+  .media-body {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .media-middle {
+    vertical-align: middle;
+  }
+  .media-bottom {
+    vertical-align: bottom;
+  }
+  .media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .media-list {
+    padding-left: 0;
+    list-style: none;
+  }
+/* widgets section*/
+h5 {
+    font-size: 1.2vw;
+}
+.widgets {
+    font-size: 1.1vw;
+    min-height: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  }
+  .widgets blockquote {
+    border-color: #ddd;
+    border-color: rgba(0, 0, 0, .15);
+  }
+  .widgets-lg {
+    padding: 24px;
+    border-radius: 6px;
+  }
+  .widgets-sm {
+    padding: 9px;
+    border-radius: 3px;
+  }
+
+  /*Comments*/
+  .no-comment{
+    text-align: center;
+    color: #aea6a4;
+  }
